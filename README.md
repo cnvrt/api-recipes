@@ -293,7 +293,7 @@ curl http://localhost:8000/search?q=pancakes
 
 ---
 
-Make sure to replace the MongoDB connection and setup information with your actual credentials and details if necessary. This README should provide enough documentation for others to easily use and understand your API.
+Make sure to replace the MongoDB connection and setup information with your actual credentials and details if necessary. This README should provide enough documentation for others to easily use and understand my API.
 
 ---
 

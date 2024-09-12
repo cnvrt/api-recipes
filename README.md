@@ -10,7 +10,10 @@ Make sure to replace the MongoDB connection and setup information with your actu
 
 ## For Dockerfile 
 First create `MONGO_USER` & `MONGO_PASS` from your mongodb atlas Account 
-Then add it in your server's Secrets/.env or add it in `$mongoUri` string of /index.php (e.g., `$mongoUri = "mongodb+srv://user123:pass123@cluster0.i2re1dg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";`). 
+Then add it in your server's Secrets/.env or add it in `$mongoUri` string of /index.php (e.g., 
+`$mongoUri = "mongodb+srv://user123:pass123@cluster0.i2re1dg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";` ,
+`$uri = "mongodb://user123:pass123@localhost:27017/mydatabase";`
+). 
 
 ```
 $ docker build -t my-image .
@@ -22,7 +25,7 @@ Then follow the 6th step of [Installation](#Installation)
 
 - [Setup](#setup)
 - [Endpoints](#endpoints)
-  - [GET /](#get)
+  - [GET /](#get-)
   - [GET /recipes](#get-recipes)
   - [POST /recipes](#post-recipes)
   - [GET /recipes/{id}](#get-recipesid)

@@ -12,7 +12,7 @@ Make sure to replace the MongoDB connection and setup information with your actu
 First create `MONGO_USER` & `MONGO_PASS` from your mongodb atlas Account 
 Then add it in your server's Secrets/.env or add it in `$mongoUri` string of /index.php (e.g., 
 `$mongoUri = "mongodb+srv://user123:pass123@cluster0.i2re1dg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";` ,
-`$uri = "mongodb://user123:pass123@localhost:27017/mydatabase";`
+`$mongoUri = "mongodb://user123:pass123@localhost:27017/mydatabase";`
 ). 
 
 ```
